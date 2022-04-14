@@ -2,7 +2,7 @@
 - No se pueden montar en dragones, en ghasts o jugadores, esto porque no hubo la paja de probarlo y por seguridad lo he quitado. Lo de los jugadores se ha probado y resultó un poco fastidioso tener que montarse en un jugador mientras se esta haciendo una pelea o algo parecido.
 Esto del jugador si ha sido probado.
 
--Bichos no montables:
+- Bichos no montables:
   - Player
   - Slime
   - Ghast
