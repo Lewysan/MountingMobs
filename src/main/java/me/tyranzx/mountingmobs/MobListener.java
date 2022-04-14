@@ -10,7 +10,7 @@ public class MobListener extends StellarSource implements Listener {
 
     @EventHandler
     public void clickearMobs(PlayerInteractAtEntityEvent e) {
-        if (e.getRightClicked().getType().equals(EntityType.ENDER_DRAGON) || e.getRightClicked().getType().equals(EntityType.GHAST) || e.getRightClicked().getType().equals(EntityType.BLAZE) || e.getRightClicked().getType().equals(EntityType.SLIME) || e.getRightClicked().getType().equals(EntityType.SQUID) || e.getRightClicked().getType().equals(EntityType.PLAYER))
+        if (e.getRightClicked().getType().equals(EntityType.ENDER_DRAGON) || e.getRightClicked().getType().equals(EntityType.GHAST) || e.getRightClicked().getType().equals(EntityType.BLAZE) || e.getRightClicked().getType().equals(EntityType.SLIME) || e.getRightClicked().getType().equals(EntityType.SQUID) || e.getRightClicked().getType().equals(EntityType.PLAYER) || e.getRightClicked().getType().equals(EntityType.BAT))
             return;
         e.getRightClicked().setPassenger(e.getPlayer());
     }
