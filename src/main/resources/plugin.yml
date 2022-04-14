@@ -1,0 +1,5 @@
+name: MountingMobs
+version: 1.0
+authors: ["Tyranzx", "Lowynzx"]
+description: "Complemento para montar los animales pero solo algunos."
+main: me.tyranzx.mountingmobs.StellarCore
